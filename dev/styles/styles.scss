@@ -1,0 +1,111 @@
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../assets/background.jpg);
+	background-size: contain no-repeat;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	padding-top: 20px;
+}
+
+h4 {
+	margin: 10px;
+}
+
+.create-user {
+	display: none;
+}
+
+.logoImg {
+	display: flex;
+	margin: 0 auto;
+	height: 300px;
+	width: 300px;
+	padding: 20px 0;
+}
+
+.wrapper {
+	max-width: 70%;
+	margin: 30px auto;
+	background: white;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+	margin: 0 auto;
+	background: black;
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+	padding: 0 15px;
+	font-family: 'Merriweather', serif;
+	font-size: 13px;
+}
+
+.nav a:hover {
+	color: green;
+}
+
+.gameRecaps, .gameTimes p {
+	padding: 10px 0px;
+}
+
+.blankSpace {
+	display: none;
+}
+
+.leagueDescription, .gameTimes p, .gameRecaps {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.email, .password {
+	display: block;
+	margin: 10px auto;
+}
+
+.signInButton, .signOutButton, .submitButton {
+	background: black;
+	border: solid white 1px;
+	color: white;
+	font-family: 'Merriweather', serif;
+	font-size: 13px;
+}
+
+.submitButton {
+	margin-bottom: 20px;
+}
+
+.sign-in {
+	padding-bottom: 20px;
+}
+
+.teams {
+	display: block;
+	margin: 10px auto;
+}
+
+@media (max-width: 768px) {
+ 	.nav {
+ 		flex-direction: column;
+ 	}
+ 	.nav a {
+ 		padding: 5px;
+ 	}
+ 	.logoImg {
+ 		width: 200px;
+ 		height: 200px;
+ 	}	
+}
+
+
+@media (max-width: 480px) {
+	 .leagueDescription, .gameTimes p, .gameRecaps {
+	 	width: 75%;
+	 }	
+}
